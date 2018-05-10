@@ -1,0 +1,15 @@
+@for $i from 1 through 100 {
+  .day[data-value="#{$i}"]{
+    transition:All 5s ease;
+    &:after{
+      transition:All 5s ease;
+      content: '';
+      top:calc(#{$graph-height} - #{$i * .7}px )
+    }
+  }
+  .arc[data-value="#{$i}"]{
+    @include transform(rotate(#{$i * 1.8}deg));
+    transition:All 5s ease;
+    border-color: $green;
+  }
+}

@@ -1,0 +1,14 @@
+.navigation-bar{
+  background:#2d3436;
+  color:$w;
+  padding:20px ;
+  text-align: right;
+
+  ul{
+    display: block;
+    li{
+      padding:2px 10px;
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.login{
+  padding:25px;
+  background-color: $green;
+  color:$w;
+  @include shadow-3();
+  h4,p{
+    color:$w;
+    text-align: center;
+  }
+  &.home{
+    width:300px;
+    margin:80px auto;
+  }
+  .register-link{
+    font-size:13px;
+    text-align: left;
+  }
+
+}

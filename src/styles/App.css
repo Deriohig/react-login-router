@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #f5f6fa; }
+
+.error {
+  padding: 2px 5px;
+  font-size: 12px;
+  color: #f6e58d;
+  background-color: #f0932b;
+  text-align: left; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #4b545d;
+  line-height: 1.4; }
+
+p, label, html {
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+label {
+  margin-bottom: 5px;
+  font-size: 12px; }
+
+h1, .h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800; }
+
+h2, .h2 {
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+h3, .h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+h4, .h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+h5, .h5 {
+  font-size: 20px;
+  font-weight: 400; }
+
+.form-item {
+  margin: 10px 0;
+  display: block; }
+  .form-item label {
+    display: block; }
+  .form-item input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    -webkit-appearance: none; }
+    .form-item input[type='text'], .form-item input[type='password'], .form-item input[type='email'] {
+      padding: 5px 10px; }
+    .form-item input[type='submit'] {
+      -webkit-appearance: none;
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+      cursor: pointer; }
+      .form-item input[type='submit']:hover {
+        background: white;
+        color: #4b545d; }
+
+.form-holder {
+  color: white;
+  width: 40%;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #5db792; }
+  .form-holder h1, .form-holder h2, .form-holder h3, .form-holder h4, .form-holder h5 {
+    color: white; }
+
+.login {
+  padding: 25px;
+  background-color: #5db792;
+  color: white;
+  -webkit-box-shadow: 0px 15px 20px 0px rgba(18, 31, 38, 0.2);
+  box-shadow: 0px 15px 20px 0px rgba(18, 31, 38, 0.2); }
+  .login h4, .login p {
+    color: white;
+    text-align: center; }
+  .login.home {
+    width: 300px;
+    margin: 80px auto; }
+  .login .register-link {
+    font-size: 13px;
+    text-align: left; }
+
+.navigation-bar {
+  background: #2d3436;
+  color: white;
+  padding: 20px;
+  text-align: right; }
+  .navigation-bar ul {
+    display: block; }
+    .navigation-bar ul li {
+      padding: 2px 10px;
+      display: inline-block; }
+
+.register {
+  padding: 25px;
+  background-color: #5db792;
+  color: white;
+  -webkit-box-shadow: 0px 15px 20px 0px rgba(18, 31, 38, 0.2);
+  box-shadow: 0px 15px 20px 0px rgba(18, 31, 38, 0.2); }
+  .register h4, .register p {
+    color: white;
+    text-align: center; }
+  .register.home {
+    width: 300px;
+    margin: 80px auto;
+    position: relative; }
+  .register .error {
+    padding: 2px 5px;
+    font-size: 12px;
+    color: #f6e58d;
+    background-color: #f0932b;
+    text-align: left; }

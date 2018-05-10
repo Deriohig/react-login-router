@@ -1,0 +1,55 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color:$b;
+  line-height: 1.4;
+}
+p, label, html{
+  line-height: 1.4;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+label{
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+h1, .h1{
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+h2, .h2{
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h3, .h3{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h4, .h4{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h5, .h5{
+  font-size: 20px;
+  font-weight: 400;
+}
